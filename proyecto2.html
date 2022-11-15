@@ -1,7 +1,7 @@
 <html>
 
 <head>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> Barra-de-navegacion-vertical </title>
 <style>
 *::-webkit-scrollbar {
@@ -36,8 +36,9 @@ ul {
 li a {
   display: block;
   color: rgb(9, 5, 34);
-  padding: 8px 16px;
-  /* text-decoration: none; */
+  padding: 10px 100px;
+  text-decoration: none;
+
 } 
 
 li a:hover:not(.active) {
@@ -45,6 +46,14 @@ li a:hover:not(.active) {
 }
 .active{
   background-color: rgb(238, 184, 226);
+  border-radius: 10px;
+}
+li{
+  border-bottom: 1px solid rebeccapurple;
+  border-right: 2px solid black;
+  border-radius: 10px; 
+  border-left: 3px solid black;
+  
 }
 
 </style>
@@ -52,15 +61,16 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a class="active" href="#Welcome">Welcome</a></li>
-  <li><a href="#News">News</a></li>
-  <li><a href="#search">Search</a></li>
-  <li><a href="#contact us">Contact us</a></li>
+  <li><a class="active" href="#Welcome"><i class="fa fa-globe"></i> Welcome</a></li>
+  <li><a href="#News"></i><i class="fa fa-file"></i>  News</a></li>
+  <li><a href="#search"><i class="fa fa-search"></i> Search</a></li>
+  <li><a href="#contact us"><i class="fa fa-phone"></i>
+    Contact us</a></li>
 </ul>
 
 
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<div style="margin-left: 25%; padding:1px 16px;height:1000px;">
   <h1><b> Una barra de navegación vertical permite a los usuarios desplazar el contenido que estan viendo, hacia arriba o hacia abajo.</b></h1>
   <h2>Menús de navegacion: ¿verticales u horizontales?</h2>
   <h3><u>En este caso hablaremos de una <i>barra de navegacion vertical:</i></u></h3>
